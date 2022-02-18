@@ -1,4 +1,4 @@
-Shader "Custom/Experiment"
+Shader "Custom/Outline1"
 {
     Properties
     {
