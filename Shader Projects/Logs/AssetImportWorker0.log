@@ -163,3 +163,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108497.809179 seconds.
+  path: Assets/Scenes/Stencil.unity
+  artifactKey: Guid(ec1f2f2dae5ebc94d9edf9c13253ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stencil.unity using Guid(ec1f2f2dae5ebc94d9edf9c13253ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa9821dbc737aa9ebd9517fe877731b') in 0.016463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.406789 seconds.
+  path: Assets/Shaders/StencilEffect.shader
+  artifactKey: Guid(dffd28ba33871d94982ae89a30b42a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/StencilEffect.shader using Guid(dffd28ba33871d94982ae89a30b42a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c38fe9e542c719f36cd879cd3131bf') in 0.020848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.176975 seconds.
+  path: Assets/Shaders/StencilMask.shader
+  artifactKey: Guid(ba2b8e2ceed50d94581b6e3bebdd9d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/StencilMask.shader using Guid(ba2b8e2ceed50d94581b6e3bebdd9d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd22d9670562bcce62ca571e8709e18e') in 0.004707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 227.732700 seconds.
+  path: Assets/Shaders/StencilEffect.shader
+  artifactKey: Guid(dffd28ba33871d94982ae89a30b42a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/StencilEffect.shader using Guid(dffd28ba33871d94982ae89a30b42a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac32816a02509bc2d4c5afe7538cac18') in 0.002086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.447318 seconds.
+  path: Assets/Materials/Distortion.mat
+  artifactKey: Guid(ebc3927f2bb0ddc48bb16095669af738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Distortion.mat using Guid(ebc3927f2bb0ddc48bb16095669af738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3c535cc6d5c3e5315f11ed9da684eb') in 0.264687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.479998 seconds.
+  path: Assets/Materials/StencilMask.mat
+  artifactKey: Guid(c60d5a8e618fe254e9e6c3294a6dbbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilMask.mat using Guid(c60d5a8e618fe254e9e6c3294a6dbbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd5eca83cf813310e32cff6a32bcba2') in 0.017544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.222175 seconds.
+  path: Assets/Shaders/StencilMask.shader
+  artifactKey: Guid(ba2b8e2ceed50d94581b6e3bebdd9d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/StencilMask.shader using Guid(ba2b8e2ceed50d94581b6e3bebdd9d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106affc15965b46f9d1b007f90733872') in 0.002040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.092368 seconds.
+  path: Assets/Materials/StencilEffect.mat
+  artifactKey: Guid(d0525ff5949be1f4c85769b4aaa94712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilEffect.mat using Guid(d0525ff5949be1f4c85769b4aaa94712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ba4c95ecb75da7e5b37849fa373fd6') in 0.008927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.440786 seconds.
+  path: Assets/Shaders/StencilMask.shader
+  artifactKey: Guid(ba2b8e2ceed50d94581b6e3bebdd9d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/StencilMask.shader using Guid(ba2b8e2ceed50d94581b6e3bebdd9d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cd442ac2a1dfd9fb2f0eff9179b293') in 0.002488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.189725 seconds.
+  path: Assets/Shaders/StencilMask.shader
+  artifactKey: Guid(ba2b8e2ceed50d94581b6e3bebdd9d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/StencilMask.shader using Guid(ba2b8e2ceed50d94581b6e3bebdd9d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1193d5588162d5a2af2d34d928634568') in 0.002403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.503659 seconds.
+  path: Assets/Shaders/StencilEffect.shader
+  artifactKey: Guid(dffd28ba33871d94982ae89a30b42a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/StencilEffect.shader using Guid(dffd28ba33871d94982ae89a30b42a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe0a747cac9aa07d0b98382187d4ae9') in 0.002401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.900595 seconds.
+  path: Assets/Shaders/StencilEffect.shader
+  artifactKey: Guid(dffd28ba33871d94982ae89a30b42a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/StencilEffect.shader using Guid(dffd28ba33871d94982ae89a30b42a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ed41c02df9b6e639b48e417a5c50dd') in 0.005186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 491.346701 seconds.
+  path: Assets/Materials/StencilEffect.mat
+  artifactKey: Guid(d0525ff5949be1f4c85769b4aaa94712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilEffect.mat using Guid(d0525ff5949be1f4c85769b4aaa94712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a098872377327cb9d354cd11fbde14') in 0.078655 seconds 
