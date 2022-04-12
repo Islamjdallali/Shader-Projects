@@ -1,9 +1,14 @@
 Shader "Custom/StencilMask"
 {
+	Properties
+	{
+		[IntRange]_StencilRef("StencilRef",Range(0,255)) = 0
+	}
+
 	SubShader{
 		Tags { "RenderType" = "Transparent" }
 		Stencil {
-			Ref 1
+			Ref [_StencilRef]
 			Comp always
 			Pass replace
 		}
