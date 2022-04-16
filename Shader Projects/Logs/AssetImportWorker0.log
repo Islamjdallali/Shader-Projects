@@ -234,3 +234,125 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003820 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (560ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (115.3 KB). Loaded Objects now: 4067.
+Memory consumption went from 130.4 MB to 130.3 MB.
+Total: 3.078700 ms (FindLiveObjects: 0.278500 ms CreateObjectMapping: 0.255400 ms MarkObjects: 2.450500 ms  DeleteObjects: 0.093500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8214.019268 seconds.
+  path: Assets/Scenes/Stencil.unity
+  artifactKey: Guid(ec1f2f2dae5ebc94d9edf9c13253ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stencil.unity using Guid(ec1f2f2dae5ebc94d9edf9c13253ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf32254b32e52f897cbcd1aa03149a53') in 0.018156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.537065 seconds.
+  path: Assets/Scenes/VertexDisplacement.unity
+  artifactKey: Guid(c91fefef91425d141ad9db174a1ac612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VertexDisplacement.unity using Guid(c91fefef91425d141ad9db174a1ac612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc663e7ef937f788475065590366eaac') in 0.004183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.319298 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262211c0fec910c57bd24b96c43f9bb5') in 0.107740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/StencilEffect 4.mat
+  artifactKey: Guid(d0525ff5949be1f4c85769b4aaa94712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilEffect 4.mat using Guid(d0525ff5949be1f4c85769b4aaa94712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed40e1cb396650df928ad8fff4ff031') in 0.093455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/StencilEffect 3.mat
+  artifactKey: Guid(61ad1ef5e9230984c8d7ff0d33f12128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilEffect 3.mat using Guid(61ad1ef5e9230984c8d7ff0d33f12128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fadd38c01e1af011a06cc10bcd3b49d') in 0.008675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/StencilEffect 1.mat
+  artifactKey: Guid(1e0d60bbbaa42ab47b869a28bec519fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilEffect 1.mat using Guid(1e0d60bbbaa42ab47b869a28bec519fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06e0946c505acedb07fb316505fb88c') in 0.018154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/StencilMask3.mat
+  artifactKey: Guid(e17b835f911baae47bb0843b548ed84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilMask3.mat using Guid(e17b835f911baae47bb0843b548ed84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e0cd719fdd0a353aefc1d78b864f6f') in 0.071282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/StencilMask2.mat
+  artifactKey: Guid(5b1c649eae9b06e48b3c896ca1a7a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilMask2.mat using Guid(5b1c649eae9b06e48b3c896ca1a7a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d8fb2abacc15ec42a386dd061c2f29') in 0.008679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacbe66f53d51a23cfa05319b8ae5006') in 0.076777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/StencilMask4.mat
+  artifactKey: Guid(40477b8129e1cb647964f7f0e1977435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilMask4.mat using Guid(40477b8129e1cb647964f7f0e1977435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739724f01d95d15b04d4f2c278ea8bed') in 0.010567 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
