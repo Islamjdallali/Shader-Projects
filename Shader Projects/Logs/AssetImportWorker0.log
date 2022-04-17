@@ -15,7 +15,7 @@ D:/Personal Projects/Shader Projects Repo/Shader-Projects/Shader Projects
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58002
+64087
 Successfully changed project path to: D:/Personal Projects/Shader Projects Repo/Shader-Projects/Shader Projects
 D:/Personal Projects/Shader Projects Repo/Shader-Projects/Shader Projects
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Personal Projects/Shader Projects Repo/Shader-Projects/Shader Projects
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 65.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.15 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.6f1 (8c4e826ba445)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,224 +63,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.010182 seconds.
+Registered in 0.010596 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 66.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.482 seconds
+- Completed reload, in  0.512 seconds
 Domain Reload Profiling:
-	ReloadAssembly (483ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (512ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (360ms)
-			LoadAssemblies (55ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (380ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (229ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (246ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003331 seconds.
+Registered in 0.004702 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.22 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
+- Completed reload, in  1.357 seconds
 Domain Reload Profiling:
-	ReloadAssembly (831ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (1358ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (650ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (1188ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
+			SetupTypeCache (193ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (331ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (845ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (618ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3605 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (148.0 KB). Loaded Objects now: 4062.
-Memory consumption went from 134.1 MB to 134.0 MB.
-Total: 3.007700 ms (FindLiveObjects: 0.252200 ms CreateObjectMapping: 0.156200 ms MarkObjects: 2.463700 ms  DeleteObjects: 0.134900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004218 seconds.
-Begin MonoManager ReloadAssembly
-IOException: Sharing violation on path D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\ProjectSettings\Packages\com.unity.probuilder\Settings.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31c0f51ac5a24a22ba784db24f4ba023>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <31c0f51ac5a24a22ba784db24f4ba023>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <31c0f51ac5a24a22ba784db24f4ba023>:0 
-  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <31c0f51ac5a24a22ba784db24f4ba023>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
-  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <31c0f51ac5a24a22ba784db24f4ba023>:0 
-  at UnityEditor.SettingsManagement.PackageSettingsRepository.Save () [0x00070] in D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\PackageSettingsRepository.cs:144 
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <52409df47eec4ff4a3e5a5be37682d54>:0 
-
-(Filename: Library/PackageCache/com.unity.settings-manager@1.0.3/Editor/PackageSettingsRepository.cs Line: 144)
-
-Symbol file LoadedFromMemory doesn't match image D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.699 seconds
-Domain Reload Profiling:
-	ReloadAssembly (699ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (504ms)
-			LoadAssemblies (55ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (238ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (146ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 190 unused Assets / (104.1 KB). Loaded Objects now: 3896.
-Memory consumption went from 122.8 MB to 122.7 MB.
-Total: 2.802000 ms (FindLiveObjects: 0.239800 ms CreateObjectMapping: 0.120200 ms MarkObjects: 2.317800 ms  DeleteObjects: 0.123600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003820 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
-Domain Reload Profiling:
-	ReloadAssembly (763ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (560ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (263ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3563 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (115.3 KB). Loaded Objects now: 4067.
-Memory consumption went from 130.4 MB to 130.3 MB.
-Total: 3.078700 ms (FindLiveObjects: 0.278500 ms CreateObjectMapping: 0.255400 ms MarkObjects: 2.450500 ms  DeleteObjects: 0.093500 ms)
+Unloading 4414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (164.9 KB). Loaded Objects now: 4870.
+Memory consumption went from 172.5 MB to 172.3 MB.
+Total: 3.942300 ms (FindLiveObjects: 0.321400 ms CreateObjectMapping: 0.236000 ms MarkObjects: 3.216400 ms  DeleteObjects: 0.167600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -294,65 +165,37 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8214.019268 seconds.
-  path: Assets/Scenes/Stencil.unity
-  artifactKey: Guid(ec1f2f2dae5ebc94d9edf9c13253ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stencil.unity using Guid(ec1f2f2dae5ebc94d9edf9c13253ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf32254b32e52f897cbcd1aa03149a53') in 0.018156 seconds 
+  Time since last request: 187499.802967 seconds.
+  path: Assets/Shaders/StrikersShader.shader
+  artifactKey: Guid(00f57217c8d29c54d8f00a47839a3c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/StrikersShader.shader using Guid(00f57217c8d29c54d8f00a47839a3c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aecb36245133c1db7bc1fb516f4014') in 0.036593 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.537065 seconds.
-  path: Assets/Scenes/VertexDisplacement.unity
-  artifactKey: Guid(c91fefef91425d141ad9db174a1ac612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VertexDisplacement.unity using Guid(c91fefef91425d141ad9db174a1ac612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc663e7ef937f788475065590366eaac') in 0.004183 seconds 
+  Time since last request: 31.135303 seconds.
+  path: Assets/Shaders/StrikersShader.shader
+  artifactKey: Guid(00f57217c8d29c54d8f00a47839a3c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/StrikersShader.shader using Guid(00f57217c8d29c54d8f00a47839a3c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc6004ea56e4fc6464e671e929d6668') in 0.002059 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.319298 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262211c0fec910c57bd24b96c43f9bb5') in 0.107740 seconds 
+  Time since last request: 3.400061 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(3861383cf662817438e881c75595ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(3861383cf662817438e881c75595ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627cc544dcd381b34220182e6d735747') in 0.284475 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materials/StencilEffect 4.mat
-  artifactKey: Guid(d0525ff5949be1f4c85769b4aaa94712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/StencilEffect 4.mat using Guid(d0525ff5949be1f4c85769b4aaa94712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed40e1cb396650df928ad8fff4ff031') in 0.093455 seconds 
+  Time since last request: 37.353132 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(3861383cf662817438e881c75595ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(3861383cf662817438e881c75595ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b63b02a3e3f10af5eee18404af73c0') in 0.010592 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Materials/StencilEffect 3.mat
-  artifactKey: Guid(61ad1ef5e9230984c8d7ff0d33f12128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/StencilEffect 3.mat using Guid(61ad1ef5e9230984c8d7ff0d33f12128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fadd38c01e1af011a06cc10bcd3b49d') in 0.008675 seconds 
+  Time since last request: 83.742802 seconds.
+  path: Assets/Models/mario 2.obj
+  artifactKey: Guid(c4562b8d09bd6ff47966e824825331cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mario 2.obj using Guid(c4562b8d09bd6ff47966e824825331cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f29d4ec901bcc3071c3fea13aff825d') in 0.102152 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Materials/StencilEffect 1.mat
-  artifactKey: Guid(1e0d60bbbaa42ab47b869a28bec519fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/StencilEffect 1.mat using Guid(1e0d60bbbaa42ab47b869a28bec519fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06e0946c505acedb07fb316505fb88c') in 0.018154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Materials/StencilMask3.mat
-  artifactKey: Guid(e17b835f911baae47bb0843b548ed84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/StencilMask3.mat using Guid(e17b835f911baae47bb0843b548ed84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e0cd719fdd0a353aefc1d78b864f6f') in 0.071282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Materials/StencilMask2.mat
-  artifactKey: Guid(5b1c649eae9b06e48b3c896ca1a7a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/StencilMask2.mat using Guid(5b1c649eae9b06e48b3c896ca1a7a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d8fb2abacc15ec42a386dd061c2f29') in 0.008679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacbe66f53d51a23cfa05319b8ae5006') in 0.076777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Materials/StencilMask4.mat
-  artifactKey: Guid(40477b8129e1cb647964f7f0e1977435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/StencilMask4.mat using Guid(40477b8129e1cb647964f7f0e1977435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739724f01d95d15b04d4f2c278ea8bed') in 0.010567 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 82.684877 seconds.
+  path: Assets/Models/Mario2.obj
+  artifactKey: Guid(94b2589ba6e77fd4ea3c42e282ab2180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mario2.obj using Guid(94b2589ba6e77fd4ea3c42e282ab2180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff17485a339aba1b5694dd74e81791b3') in 0.020647 seconds 
