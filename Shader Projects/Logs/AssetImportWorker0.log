@@ -15,7 +15,7 @@ D:/Personal Projects/Shader Projects Repo/Shader-Projects/Shader Projects
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62947
+58638
 Successfully changed project path to: D:/Personal Projects/Shader Projects Repo/Shader-Projects/Shader Projects
 D:/Personal Projects/Shader Projects Repo/Shader-Projects/Shader Projects
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Personal Projects/Shader Projects Repo/Shader-Projects/Shader Projects
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 82.90 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 80.33 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.6f1 (8c4e826ba445)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.010958 seconds.
+Registered in 0.010375 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 82.41 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 80.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.504 seconds
+- Completed reload, in  0.500 seconds
 Domain Reload Profiling:
-	ReloadAssembly (505ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (500ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (376ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (364ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (65ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (245ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (237ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
+				RefreshPlugins (81ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005144 seconds.
+Registered in 0.005150 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Personal Projects\Shader Projects Repo\Shader-Projects\Shader Projects\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 77.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 78.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.315 seconds
+- Completed reload, in  1.300 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1316ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (1300ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1152ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (1134ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
+			SetupTypeCache (184ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (828ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (811ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (610ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (589ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4419 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 41 unused Assets / (148.1 KB). Loaded Objects now: 4875.
-Memory consumption went from 173.0 MB to 172.9 MB.
-Total: 3.441300 ms (FindLiveObjects: 0.288800 ms CreateObjectMapping: 0.166900 ms MarkObjects: 2.876600 ms  DeleteObjects: 0.107900 ms)
+Memory consumption went from 173.1 MB to 172.9 MB.
+Total: 3.351100 ms (FindLiveObjects: 0.275000 ms CreateObjectMapping: 0.111200 ms MarkObjects: 2.859700 ms  DeleteObjects: 0.104500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,13 +165,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 682619.810962 seconds.
-  path: Assets/Shaders/ScanEffect.shader
-  artifactKey: Guid(e4f619999f9b43f40b8480a5a6390c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/ScanEffect.shader using Guid(e4f619999f9b43f40b8480a5a6390c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802cb34e8817aa71517e7ea0a83e13e0') in 0.031485 seconds 
+  Time since last request: 840774.765826 seconds.
+  path: Assets/Scenes/RimLight.unity
+  artifactKey: Guid(bf2fedc9966949e45b7dd1e9008e7afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RimLight.unity using Guid(bf2fedc9966949e45b7dd1e9008e7afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5faa8abab5a739545ccd67df93205a3') in 0.016541 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.487233 seconds.
-  path: Assets/Shaders/ScanEffect.shader
-  artifactKey: Guid(e4f619999f9b43f40b8480a5a6390c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/ScanEffect.shader using Guid(e4f619999f9b43f40b8480a5a6390c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9fb6cbe2b824312b327e805fdf6bb1') in 0.004219 seconds 
+  Time since last request: 22.385276 seconds.
+  path: Assets/Shaders/RimShader.shader
+  artifactKey: Guid(a56342f560b84fd4f8edc80203ac9ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/RimShader.shader using Guid(a56342f560b84fd4f8edc80203ac9ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f6cb82b9e82481efaba8a99d2c0bcb') in 0.023231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.341359 seconds.
+  path: Assets/Shaders/RimShader.shader
+  artifactKey: Guid(a56342f560b84fd4f8edc80203ac9ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/RimShader.shader using Guid(a56342f560b84fd4f8edc80203ac9ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f8d30cbd366e307afb9705dc3c648a') in 0.006445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.465433 seconds.
+  path: Assets/Materials/Scan.mat
+  artifactKey: Guid(bf8550e9b6daccb4db97bd70bad524a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scan.mat using Guid(bf8550e9b6daccb4db97bd70bad524a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a4de9f708d9d8223c1d3e9ee81740f') in 0.220222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.614040 seconds.
+  path: Assets/Materials/Rimlight.mat
+  artifactKey: Guid(8528e8ec64337a442bec7ff22faa33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rimlight.mat using Guid(8528e8ec64337a442bec7ff22faa33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de0f275357dd8e184dbf52caff1345c') in 0.016990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 826.371141 seconds.
+  path: Assets/Shaders/RimSurfaceShader.shader
+  artifactKey: Guid(0d8337d5018ea09418d9e1082427f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/RimSurfaceShader.shader using Guid(0d8337d5018ea09418d9e1082427f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a19e0e3514151617b1a5f0f3868deba') in 0.006312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.019194 seconds.
+  path: Assets/Shaders/RimSurfaceShader.shader
+  artifactKey: Guid(0d8337d5018ea09418d9e1082427f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/RimSurfaceShader.shader using Guid(0d8337d5018ea09418d9e1082427f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a73baa4d7d2c4ae599b364784b5d769') in 0.002574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.090348 seconds.
+  path: Assets/Shaders/RimSurfaceShader.shader
+  artifactKey: Guid(0d8337d5018ea09418d9e1082427f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/RimSurfaceShader.shader using Guid(0d8337d5018ea09418d9e1082427f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f83cabad1705df527574555b9113ca5') in 0.002927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 527.138896 seconds.
+  path: Assets/Materials/Rimlight.mat
+  artifactKey: Guid(8528e8ec64337a442bec7ff22faa33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rimlight.mat using Guid(8528e8ec64337a442bec7ff22faa33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e2c60f167d4479cc59fbfce3599966') in 0.121404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.053201 seconds.
+  path: Assets/Shaders/NewSurfaceShader.shader
+  artifactKey: Guid(3f6619d9e0855d9418a96d23fc72e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/NewSurfaceShader.shader using Guid(3f6619d9e0855d9418a96d23fc72e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e592ff4e2b189b20b1751660d6c73804') in 0.005833 seconds 
