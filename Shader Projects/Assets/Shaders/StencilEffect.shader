@@ -1,4 +1,4 @@
-Shader "Custom/StencilEffect"
+Shader "Custom/Stencil/StencilEffect"
 {
 	Properties{
 		_MainTex("Base (RGB)", 2D) = "white" {}

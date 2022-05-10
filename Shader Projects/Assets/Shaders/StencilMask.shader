@@ -1,4 +1,4 @@
-Shader "Custom/StencilMask"
+Shader "Custom/Stencil/StencilMask"
 {
 	Properties
 	{

@@ -1,6 +1,6 @@
 // Unity built-in shader source. Copyright (c) 2016 Unity Technologies. MIT license (see license.txt)
 
-Shader "Custom/Sprites/Diffuse"
+Shader "Custom/Doodle"
 {
     Properties
     {
@@ -47,7 +47,7 @@ Shader "Custom/Sprites/Diffuse"
 
 		float2 rand(float2 co)
 		{
-			return frac(sin(dot(co.xy, float2(12.9898, 78.233))) * 43758.5453);
+			return frac(sin(dot(co.xy, float2(12.9898, 78.233))) * 43758.5453) - 0.5;
 		}
 
 		inline float snap(float x, float snap)
