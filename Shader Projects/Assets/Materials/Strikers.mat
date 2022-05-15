@@ -57,7 +57,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Ambient: 0.1
+    - _Ambient: 0.23
     - _AmbientScale: 1
     - _Amount: 1
     - _BumpScale: 1
@@ -70,7 +70,7 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _NoiseScale: 0.43
-    - _NoiseSnap: 0.07
+    - _NoiseSnap: 0.092
     - _OcclusionStrength: 1
     - _OutlineNoiseScale: 0.273
     - _OutlineWidth: 1.01
