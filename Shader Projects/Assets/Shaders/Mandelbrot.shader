@@ -3,6 +3,7 @@ Shader "Custom/Mandelbrot"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
+        _Area ("Area", Vector) = (0,0,4,4)
     }
     SubShader
     {
@@ -30,7 +31,7 @@ Shader "Custom/Mandelbrot"
             };
 
             sampler2D _MainTex;
-            float4 _MainTex_ST;
+            float4 _MainTex_ST, _Area;
 
             v2f vert (appdata v)
             {
@@ -41,23 +42,20 @@ Shader "Custom/Mandelbrot"
                 return o;
             }
 
-            fixed4 frag (v2f i) : SV_Target
+            fixed4 frag(v2f i) : SV_Target
             {
-                // sample the texture
-                fixed4 col = tex2D(_MainTex, i.uv);
-
-                float2 c = i.uv;
+                float2 c = _Area.xy + (i.uv - 0.5) * _Area.zw;
                 float2 z;
                 float itr;
 
-                for (itr = 0; itr < 255; itr++)
+                for (itr = 0; itr < 5000; itr++)
                 {
                     z = float2(z.x * z.x - z.y * z.y, 2 * z.x * z.y) + c;
 
                     if (length(z) > 2) break;
                 }
 
-                return itr / 255;
+                return itr / 5000;
             }
             ENDCG
         }
