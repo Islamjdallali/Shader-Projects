@@ -53,28 +53,28 @@ Shader "Custom/ColourPalette"
 
                 fixed4 col = tex2D(_MainTex, float2(ratioX,ratioY));
 
-                col = dot(col.rgb,float3(0.3, 0.59, 0.11));
+                col = dot(col.rgb,float3(0.29, 0.587, 0.114));
 
-                fixed4 newCol = tex2D(_ColourPalette,float2(0,1));
+                fixed4 newCol = fixed4(0,0,0,0);
 
-                if (col.r <= 0.25)
+                if (col.r <= 0.5)
                 {
-                    col = tex2D(_ColourPalette,float2(0.6,_PaletteNumber));
+                    newCol = tex2D(_ColourPalette,float2(0.25,_PaletteNumber));
                 }
-                else if (col.r > 0.75)
+                else if (col.r > 0.95)
                 {
-                    col = tex2D(_ColourPalette,float2(1,_PaletteNumber));
+                    newCol = tex2D(_ColourPalette,float2(1,_PaletteNumber));
                 }
-                else if (col.r > 0.25 && col.r <= 0.5)
+                else if (col.r > 0.5 && col.r <= 0.7)
                 {
-                    col = tex2D(_ColourPalette,float2(0,_PaletteNumber));;
+                    newCol = tex2D(_ColourPalette,float2(0,_PaletteNumber));;
                 }
                 else
                 {
-                    col = tex2D(_ColourPalette,float2(0.25,_PaletteNumber));
+                    newCol = tex2D(_ColourPalette,float2(0.6,_PaletteNumber));
                 }
 
-                return col;
+                return newCol;
             }
             ENDCG
         }
