@@ -3,6 +3,7 @@ Shader "Custom/Mandelbrot"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
+        [NoScaleOffset] _Color("Color Texture", 2D) = "white" {}
         _Area ("Area", Vector) = (0,0,4,4)
     }
     SubShader
@@ -31,6 +32,7 @@ Shader "Custom/Mandelbrot"
             };
 
             sampler2D _MainTex;
+            sampler2D _Color;
             float4 _MainTex_ST, _Area;
 
             v2f vert (appdata v)
@@ -42,9 +44,9 @@ Shader "Custom/Mandelbrot"
                 return o;
             }
 
-            fixed4 frag(v2f i) : SV_Target
+            float4 Mandelbrot(float2 uv)
             {
-                float2 c = _Area.xy + (i.uv - 0.5) * _Area.zw;
+                float2 c = _Area.xy + (uv - 0.5) * _Area.zw;
                 float2 z;
                 float itr;
 
@@ -55,7 +57,19 @@ Shader "Custom/Mandelbrot"
                     if (length(z) > 2) break;
                 }
 
-                return itr / 5000;
+				float4 color = 0;
+
+				if (itr < 5000)
+                {
+					color = tex2D(_Color, float2((itr / (float)5000) * (5000*0.01) + _Time.x, 0));
+				}
+
+				return color;
+            }
+
+            fixed4 frag(v2f i) : SV_Target
+            {
+				return Mandelbrot(i.uv);
             }
             ENDCG
         }
