@@ -74,8 +74,9 @@ Shader "Custom/Geometry/Wireframe"
                 float3 barys;
                 barys.xy = i.barycentricCoords;
                 barys.z = 1 - barys.x - barys.y;
+                float3 delta = fwidth(barys);
+                barys = smoothstep(delta,2 * delta,barys);
                 float minbary = min(barys.x,min(barys.y,barys.z));
-                minbary = smoothstep(0,0.1,minbary);
                 fixed4 col = tex2D(_MainTex,i.uv) * minbary;
                 return col;
             }
